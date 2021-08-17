@@ -1,24 +1,7 @@
-# README
+# Project Switchblade
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a rails API built to facilitate many smaller project. Any project that is in development or testing that is not larg enough in size to warrent it's own installation and deployment.
 
-Things you may want to cover:
+See details to follow regarding projects built in swichblade.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Note that authentication will be required to access most API functions.
