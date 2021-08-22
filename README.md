@@ -1,7 +1,7 @@
 # Project Switchblade
 
-This is a rails API built to facilitate many smaller project. Any project that is in development or testing that is not larg enough in size to warrent it's own installation and deployment.
+This is a rails API built to facilitate many smaller projects. Any project that is in development or testing that is not large enough in size to warrant its own installation and deployment.
 
-See details to follow regarding projects built in swichblade.
+See details that follow regarding projects built in swichblade.
 
-Note that authentication will be required to access most API functions.
+Note that authentication will be required to access most API functionality.
