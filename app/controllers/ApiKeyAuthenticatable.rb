@@ -1,8 +1,8 @@
 module ApiKeyAuthenticatable
   extend ActiveSupport::Concern
 
-  include ActionController::HttpAuthentication::Basic::ContollerMehtods
-  include ActionController::HttpAuthentication::Token::ContollerMehtods
+  include ActionController::HttpAuthentication::Basic::ControllerMethods
+  include ActionController::HttpAuthentication::Token::ControllerMethods
 
   attr_reader :current_api_key, :current_bearer
 
