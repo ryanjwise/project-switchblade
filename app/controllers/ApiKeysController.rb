@@ -1,8 +1,7 @@
 class ApiKeysController < ApplicationController
   include ApiKeyAuthenticatable
 
-  prepend_before_action :authenticate_with_api_key!, only: [:index]
-  prepend_before_action :authenticate_with_api_key, only: [:destroy]
+  prepend_before_action :authenticate_with_api_key!, only: %i[index destroy]
 
   def index
     render json: current_bearer.api_keys
@@ -21,6 +20,9 @@ class ApiKeysController < ApplicationController
   end
 
   def destroy
+    api_key = current_bearer.api_keys.find(params[:id])
+
     current_api_key&.destroy
+    api_key.destroy
   end
 end
